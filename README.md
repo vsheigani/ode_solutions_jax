@@ -71,7 +71,7 @@ Given $(x_n, v_n)$, each step proceeds in two stages:
 $$x^* = x_n + h\,v_n, \qquad v^* = v_n - h\,x_n$$
 
 **Correct** (trapezoidal rule):
-$$x_{n+1} = x_n + \frac{h}{2}(v_n + v^*), \qquad v_{n+1} = v_n - \frac{h}{2}(x_n + x^*)$$
+$$x_{n+1} = x_n + \frac{2}(v_n + v^*), \qquad v_{n+1} = v_n - \frac{2}(x_n + x^*)$$
 
 ### Properties
 
